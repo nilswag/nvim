@@ -12,6 +12,7 @@ vim.opt.cursorline = true
 vim.opt.signcolumn = "yes"
 vim.opt.termguicolors = true
 vim.opt.scrolloff = 12
+vim.opt.showmode = false
 
 -- search
 vim.opt.ignorecase = true
