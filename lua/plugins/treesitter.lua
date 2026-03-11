@@ -13,7 +13,12 @@ M.config = function()
 
     TS.install({ 
         "lua", 
-        "c"
+        "c",
+        "vimdoc",
+        "markdown",
+        "javascript",
+        "html",
+        "css"
     })
 
     vim.api.nvim_create_autocmd("FileType", {
