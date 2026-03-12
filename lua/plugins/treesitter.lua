@@ -18,7 +18,8 @@ M.config = function()
         "markdown",
         "javascript",
         "html",
-        "css"
+        "css",
+        "dockerfile"
     })
 
     vim.api.nvim_create_autocmd("FileType", {
